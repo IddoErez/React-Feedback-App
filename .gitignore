@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/Usersnpm-cache
+Usersnpm-cache
 
 /.pnp
 .pnp.js
