@@ -5,12 +5,12 @@ import FeedbackStats from "./Components/FeedbackStats"
 import FeedbackForm from "./Components/FeedbackForm"
 import AboutPage from "./pages/AboutPage"
 import AboutIconLink from "./Components/AboutIconLink"
-import { FeedbackRovider } from './Context/FeedBackContext';
+import { FeedbackProvider } from './Context/FeedbackContext';
 
 function App() {
 
     return (
-        <FeedbackRovider>
+        <FeedbackProvider>
             <Router>
                 <Header />
                 <div className="container">
@@ -26,7 +26,7 @@ function App() {
                     <AboutIconLink />
                 </div>
             </Router>
-        </FeedbackRovider>
+        </FeedbackProvider>
     )
 }
 

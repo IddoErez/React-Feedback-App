@@ -2,7 +2,7 @@ import Card from "./shared/Card"
 import { useState, useContext, useEffect } from "react"
 import Button from "./shared/Button"
 import RatingSelect from "./RatingSelect"
-import FeedbackContext from "../Context/FeedBackContext"
+import FeedbackContext from "../Context/FeedbackContext"
 
 function FeedbackForm() {
     const [text, setText] = useState("")
